@@ -1,0 +1,26 @@
+{
+    "haskell.nix": {
+        "branch": "master",
+        "description": "Alternative Haskell Infrastructure for Nixpkgs",
+        "homepage": "https://input-output-hk.github.io/haskell.nix",
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "rev": "dfeabf991f827480e9149487b266080e7d68b4fe",
+        "sha256": "1avj1sqr9h7l40gy8vw7nncj9hs9mvl515pm107anas5rhk00fd3",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/haskell.nix/archive/dfeabf991f827480e9149487b266080e7d68b4fe.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "hls-nix-test": {
+        "branch": "master",
+        "description": "Nix derivations for hasekll-language-server",
+        "homepage": "",
+        "owner": "Sir4ur0n",
+        "repo": "hls-nix-test",
+        "rev": "8c143160c63f02fb030c9996942e1e707970d70d",
+        "sha256": "18ka7b9rjbn4x9arxnazl4kd2017r67m0yalqjmhfhgch8arzfck",
+        "type": "tarball",
+        "url": "https://github.com/Sir4ur0n/hls-nix-test/archive/8c143160c63f02fb030c9996942e1e707970d70d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

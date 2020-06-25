@@ -1,0 +1,7 @@
+# This file is used by https://github.com/mpickering/hie-bios (itself used by Haskell Language Server) to discover Haskell components and link to sources
+cradle:
+  stack:
+    - path: "./src"
+      component: "hls-bug-preprocessor:lib"
+    - path: "./test"
+      component: "hls-bug-preprocessor:test:hls-bug-preprocessor-test"

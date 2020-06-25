@@ -1,0 +1,36 @@
+name: hls-bug-preprocessor
+version: 0.1.0.0
+github: "Sir4ur0n/hls-bug-preprocessor"
+license: BSD3
+author: "Julien Debon"
+maintainer: "julien.debon@pm.me"
+copyright: "WTFPL"
+
+description: description
+
+ghc-options:
+  - -fplugin=Polysemy.Plugin
+  - -flate-specialise
+  - -fspecialise-aggressively
+
+dependencies:
+  - base >= 4.7 && < 5
+  - polysemy
+  - polysemy-plugin
+
+library:
+  source-dirs: src
+
+tests:
+  hls-bug-preprocessor-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    dependencies:
+      - hls-bug-preprocessor
+      - tasty
+      - tasty-discover
+      - tasty-hunit
